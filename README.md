@@ -30,6 +30,8 @@ You can then build the MAVLink2 C-library for `message_definitions/v1.0/common.x
 
 ```bash
 python3 -m pymavlink.tools.mavgen --lang=C --wire-protocol=2.0 --output=generated/include/mavlink/v2.0 message_definitions/v1.0/common.xml
+or
+python3 -m pymavlink.tools.mavgen --lang=C --wire-protocol=2.0 --output=generated/include/mavlink/v2.0 message_definitions/v1.0/minimal.xml
 ```
 
 ### Use from cmake
