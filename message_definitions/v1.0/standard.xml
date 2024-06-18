@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<mavlink>
+<stmbootloader>
   <!-- MAVLink standard messages -->
   <include>minimal.xml</include>
   <dialect>0</dialect>
@@ -7,4 +7,4 @@
   <enums/>
   <!-- use minimal.xml messages -->
   <messages/>
-</mavlink>
+</stmbootloader>
