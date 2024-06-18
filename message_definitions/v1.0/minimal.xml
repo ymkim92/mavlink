@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<stmbootloader>
+<mavlink>
   <version>3</version>
   <enums>
     <enum name="MAV_AUTOPILOT">
@@ -728,4 +728,4 @@
       <field type="uint8_t[8]" name="library_version_hash">The first 8 bytes (not characters printed in hex!) of the git hash.</field>
     </message>
   </messages>
-</stmbootloader>
+</mavlink>

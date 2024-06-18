@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<stmbootloader>
+<mavlink>
   <include>standard.xml</include>
   <version>3</version>
   <dialect>0</dialect>
@@ -7832,4 +7832,4 @@
       <field type="uint16_t" name="humidity" units="c%">Humidity</field>
     </message>
   </messages>
-</stmbootloader>
+</mavlink>

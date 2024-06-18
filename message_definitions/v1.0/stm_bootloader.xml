@@ -727,5 +727,11 @@
       <field type="uint8_t[8]" name="spec_version_hash">The first 8 bytes (not characters printed in hex!) of the git hash.</field>
       <field type="uint8_t[8]" name="library_version_hash">The first 8 bytes (not characters printed in hex!) of the git hash.</field>
     </message>
+    <message id="12920" name="HYGROMETER_SENSOR">
+      <description>Temperature and humidity from hygrometer.</description>
+      <field type="uint8_t" name="id" instance="true">Hygrometer ID</field>
+      <field type="int16_t" name="temperature" units="cdegC">Temperature</field>
+      <field type="uint16_t" name="humidity" units="c%">Humidity</field>
+    </message>
   </messages>
 </stmbootloader>
